@@ -1,0 +1,3 @@
+[sqlalchemy.dialects]
+dm = sqlalchemy_dm.dmPython:DMDialect_dmPython
+dm.dmPython = sqlalchemy_dm.dmPython:DMDialect_dmPython

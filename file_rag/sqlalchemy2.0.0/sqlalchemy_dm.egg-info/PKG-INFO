@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sqlalchemy_dm
+Version: 2.0.0
+Summary: SQLAlchemy dialect for DM
+Author: Dameng
+Author-email: 
+Keywords: DM SQLAlchemy
+License-File: LICENSE
+Requires-Dist: dmPython
+Requires-Dist: sqlalchemy

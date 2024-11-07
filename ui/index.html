@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI助理</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- <link rel="stylesheet" href="styles/all-1.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body, html {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span>✕</span>
+            <div>
+                <img src="icons/header.svg" alt="AI办公助手图标" class="header-icon" style="width: 25px; height: 25px;"> <!-- 调整图标大小 -->
+                <span class="title">AI办公助手</span>
+                <span class="subtitle">内测版本</span>
+            </div>
+            <span class="logout-icon" id="logoutButton"><i class="fas fa-sign-out-alt"></i></span>
+        </header>
+        <main>
+            <div class="recent-chats">
+                最近对话记录已收起，<strong>展开</strong>
+            </div>
+            <div class="greeting">
+                <h2>早上好👋</h2>
+                <p>我是AI助理，随时为您提供便捷服务。<br>希望您喜欢以下技能：</p>
+                <div class="file-upload-section">
+                    <input type="file" id="fileInput" style="display: none;">
+                    <!-- <button onclick="triggerFileUpload()" class="upload-button">选择文件</button> -->
+                    <div id="filePreviewContainer" style="display: none;">
+                        <span class="file-icon">P</span>
+                        <div class="file-info">
+                            <div class="file-name" id="fileName"></div>
+                            <div class="file-size" id="fileSize"></div>
+                        </div>
+                        <button id="quickReadButton">快速阅读</button>
+                    </div>
+                </div>
+                <div class="features">
+                    <button class="feature-button large writing-assistant-button" id="writingAssistantButton">
+                        <img src="icons/pen-nib.svg" alt="写作助手" class="feature-icon">
+                        <div>
+                            <div class="feature-title">写作助手</div>
+                            <div class="feature-subtitle">AI辅助写作，提高效率</div>
+                        </div>
+                    </button>
+                    <button class="feature-button large image-generator-button">
+                        <img src="icons/image.svg" alt="生成图片" class="feature-icon">
+                        <div>
+                            <div class="feature-title">生成图片</div>
+                            <div class="feature-subtitle">AI创作独特图像</div>
+                        </div>
+                    </button>
+                </div>
+                <div class="powered-by">Powered by JIN</div>
+            </div>
+            <div class="chat-container">
+                <!-- 用户和AI的对话将动态添加在这里 -->
+            </div>
+        </main>
+        <footer>
+            <div class="quick-actions">
+                <button class="action-button command-center-button active" id="commandCenterButton">✨ 工具中心</button>
+                <button class="action-button read-button">快速阅读</button>
+                <button class="action-button recommended-questions-button">推荐问题</button>
+                <button class="action-button give-inspiration-button">给我灵感</button>
+            </div>
+            <div class="input-container">
+                <span class="input-icon" id="voiceButton">🎤</span> <!-- 语音按钮 -->
+                <div id="tagContainer" class="tag-container"></div> <!-- 动态标签容器 -->
+                <input type="text" class="input-field" placeholder="请输入想要了解的内容">
+                <span class="input-icon" onclick="triggerFileUpload()" id="addButton">➕</span> <!-- 加号按钮 -->
+            </div>
+        </footer>
+    </div>
+
+    <!-- 模态层 -->
+    <div id="toolCenterModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <h2>工具中心</h2>
+            <div class="features">
+                <button class="feature-button large office-system-button">
+                    <img src="icons/office.svg" alt="办公系统" class="feature-icon">
+                    <div>
+                        <div class="feature-title">办公系统</div>
+                        <div class="feature-subtitle">高效办公管理</div>
+                    </div>
+                </button>
+                <button class="feature-button large weather-button">
+                    <img src="icons/weather.svg" alt="天气" class="feature-icon">
+                    <div>
+                        <div class="feature-title">天气情况</div>
+                        <div class="feature-subtitle">实时天气信息</div>
+                    </div>
+                </button>
+                <button class="feature-button large calendar-button">
+                    <img src="icons/calendar.svg" alt="日历" class="feature-icon">
+                    <div>
+                        <div class="feature-title">时序年轮</div>
+                        <div class="feature-subtitle">日程管理工具</div>
+                    </div>
+                </button>
+                <button class="feature-button large other-tools-button">
+                    <img src="icons/tools.svg" alt="其他工具" class="feature-icon">
+                    <div>
+                        <div class="feature-title">其他工具</div>
+                        <div class="feature-subtitle">更多实用工具</div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 输入主题的模态层 -->
+    <div id="topicInputModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeTopicModal">&times;</span>
+            <h2>请输入想要写作的主题</h2>
+            <input type="text" id="topicInput" placeholder="主题" />
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="lib/marked.min.js"></script>
+    
+</body>
+</html>

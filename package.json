@@ -1,0 +1,12 @@
+{
+  "name": "ai-assistant",
+  "version": "1.0.0",
+  "description": "AI Assistant Frontend",
+  "main": "ui/app.js",
+  "scripts": {
+    "start": "serve ui"
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}

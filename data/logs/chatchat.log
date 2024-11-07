@@ -1,0 +1,788 @@
+2024-10-12 07:49:50.800 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 07:50:34.598 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 07:51:46.914 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 07:52:30.583 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 07:52:55.896 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 07:53:03.324 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 08:10:28.478 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 08:20:33.314 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 08:28:57.112 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 08:29:34.279 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 08:32:09.519 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 08:38:08.763 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:03:48.483 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:07:27.045 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:16:26.446 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:27:49.991 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:47:41.808 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:52:22.615 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:53:24.739 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:56:44.957 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:57:19.435 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:58:07.446 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 09:59:09.111 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 10:01:39.906 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 10:19:09.459 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 10:19:25.755 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\1f6f603c72784cccaabb171299c9c67e\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 10:19:25.762 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '1f6f603c72784cccaabb171299c9c67e' to memory.
+2024-10-12 10:19:27.058 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:117 - Failed to add documents to faiss: tuple index out of range
+2024-10-12 10:22:22.550 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\af80f61be5d9475e9bed8cabf16d1b33\政务大模型1.pdf
+2024-10-12 10:22:22.558 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'af80f61be5d9475e9bed8cabf16d1b33' to memory.
+2024-10-12 10:22:22.942 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:117 - Failed to add documents to faiss: tuple index out of range
+2024-10-12 10:24:12.996 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 10:24:23.714 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\9f69dc41f86d46f2a9a7921497cec417\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 10:24:23.717 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '9f69dc41f86d46f2a9a7921497cec417' to memory.
+2024-10-12 10:24:23.799 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:117 - Failed to add documents to faiss: tuple index out of range
+2024-10-12 10:27:47.270 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 10:27:58.236 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\d60675bee26a458cbcdef92ff3a11a57\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 10:27:58.243 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'd60675bee26a458cbcdef92ff3a11a57' to memory.
+2024-10-12 10:27:58.431 | WARNING  | file_rag.server.chat.file_chat:upload_temp_docs:118 - No documents to add to the vector store.
+2024-10-12 10:34:40.087 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 10:34:52.174 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\b01bc0fa4314421297ea3e60645944ac\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 10:34:52.178 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'b01bc0fa4314421297ea3e60645944ac' to memory.
+2024-10-12 10:34:53.121 | WARNING  | file_rag.server.chat.file_chat:upload_temp_docs:118 - No documents to add to the vector store.
+2024-10-12 10:56:33.850 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 10:56:49.652 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\10b3d15283e8469dbf11beb92f144abd\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 10:56:49.655 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '10b3d15283e8469dbf11beb92f144abd' to memory.
+2024-10-12 10:56:49.760 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:114 - Failed to add documents to faiss: tuple index out of range
+2024-10-12 11:01:46.258 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 11:01:56.370 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\3503b32fe2e245c2b4b1a66ec208c152\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 11:01:58.980 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '3503b32fe2e245c2b4b1a66ec208c152' to memory.
+2024-10-12 11:01:59.842 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:114 - Failed to add documents to faiss: tuple index out of range
+2024-10-12 11:25:55.449 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 11:26:05.674 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\84d18d7ac60849efb9b44a4acbbd1885\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 11:26:08.731 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '84d18d7ac60849efb9b44a4acbbd1885' to memory.
+2024-10-12 11:26:09.586 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:114 - Failed to add documents to faiss: tuple index out of range
+2024-10-12 11:30:07.225 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 11:30:18.540 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\0dd47ac98ddd4ef1b50ae834330b5612\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 11:30:21.538 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '0dd47ac98ddd4ef1b50ae834330b5612' to memory.
+2024-10-12 11:30:21.676 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:114 - Failed to add documents to faiss: tuple index out of range
+2024-10-12 11:32:38.557 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 11:32:55.627 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\b54da0e445a54dda90706bb8bc502798\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 11:32:58.177 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'b54da0e445a54dda90706bb8bc502798' to memory.
+2024-10-12 11:32:58.223 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:114 - Failed to add documents to faiss: tuple index out of range
+2024-10-12 11:33:51.497 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\c94b9e596b5d49bcab99c5db63ec38a4\政务大模型.pdf
+2024-10-12 11:33:52.211 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'c94b9e596b5d49bcab99c5db63ec38a4' to memory.
+2024-10-12 11:33:52.237 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:114 - Failed to add documents to faiss: tuple index out of range
+2024-10-12 11:36:56.567 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 11:37:04.859 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\2f71a64eae73452483160c7ce8e86d20\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 11:37:07.887 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '2f71a64eae73452483160c7ce8e86d20' to memory.
+2024-10-12 11:54:44.136 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\82cdf694d0294095bf08ea05a49dc2fe\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 11:54:44.495 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '82cdf694d0294095bf08ea05a49dc2fe' to memory.
+2024-10-12 12:07:07.722 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 12:07:20.849 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\6a385bf6c7374573b11793d19d4d1224\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 12:07:22.933 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '6a385bf6c7374573b11793d19d4d1224' to memory.
+2024-10-12 12:08:47.992 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\8c4f2cd5af584cc782c09ffe1420c74b\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 12:08:48.347 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '8c4f2cd5af584cc782c09ffe1420c74b' to memory.
+2024-10-12 12:12:13.162 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 12:12:23.611 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\ff1b7fccc01c47f1adec35a2aba58bff\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 12:12:26.245 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'ff1b7fccc01c47f1adec35a2aba58bff' to memory.
+2024-10-12 12:12:49.191 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\7ec8152bef6a491f815b37b1ab491ff7\政务大模型.pdf
+2024-10-12 12:12:50.493 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '7ec8152bef6a491f815b37b1ab491ff7' to memory.
+2024-10-12 12:14:39.240 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\411d25102f3c4b509aa1980c94a3feb8\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 12:14:39.864 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '411d25102f3c4b509aa1980c94a3feb8' to memory.
+2024-10-12 12:47:56.478 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\eeeaf96c7055415c8d97db613d7dba6a\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 12:47:56.821 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'eeeaf96c7055415c8d97db613d7dba6a' to memory.
+2024-10-12 12:52:04.232 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\959ddae1cc5f4c17a3687b64dbc116b3\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 12:52:04.448 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '959ddae1cc5f4c17a3687b64dbc116b3' to memory.
+2024-10-12 12:56:24.363 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\78971fdc40634503896fd4dd3d70d46f\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 12:56:24.726 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '78971fdc40634503896fd4dd3d70d46f' to memory.
+2024-10-12 12:58:15.596 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\689a54b518524a5d8929713c1132650b\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 12:58:15.957 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '689a54b518524a5d8929713c1132650b' to memory.
+2024-10-12 13:07:25.414 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\0d5ba24278de439c8367c56ee3693684\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 13:07:25.634 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '0d5ba24278de439c8367c56ee3693684' to memory.
+2024-10-12 13:07:28.439 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 13:07:30.726 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:226 - error in knowledge chat: jinja2 not installed, which is needed to use the jinja2_formatter. Please install it with `pip install jinja2`.
+2024-10-12 13:08:58.396 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 13:09:08.714 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\605f63226ed8492a9f940061c5e932c1\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 13:09:09.388 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:226 - error in knowledge chat: 请求的资源 0d5ba24278de439c8367c56ee3693684 不存在
+2024-10-12 13:09:11.444 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '605f63226ed8492a9f940061c5e932c1' to memory.
+2024-10-12 13:13:00.092 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 13:13:09.040 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\940788b15a8d40b0bc30bcd296e878cb\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 13:13:11.758 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '940788b15a8d40b0bc30bcd296e878cb' to memory.
+2024-10-12 13:15:36.231 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 13:15:51.256 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\a82dc8c4417b40129094ea6410138fea\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 13:15:53.261 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'a82dc8c4417b40129094ea6410138fea' to memory.
+2024-10-12 13:20:39.737 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 13:26:34.904 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\7e0200116f4f4694acfffe7244c8552c\政务大模型.pdf
+2024-10-12 13:26:35.703 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '7e0200116f4f4694acfffe7244c8552c' to memory.
+2024-10-12 13:26:37.549 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 13:31:31.678 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\b4141de7b2184c0184965efa7154c57f\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 13:31:32.029 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'b4141de7b2184c0184965efa7154c57f' to memory.
+2024-10-12 13:31:42.660 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 13:43:26.225 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\b2e29bcd48e84271a535c613dfb2115b\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 13:43:26.472 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'b2e29bcd48e84271a535c613dfb2115b' to memory.
+2024-10-12 13:43:34.937 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 13:51:10.544 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\07ee8cf2a45f419b81bb083683995923\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 13:51:10.780 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '07ee8cf2a45f419b81bb083683995923' to memory.
+2024-10-12 13:51:16.473 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 13:58:41.760 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\ca6aa7e4b0a8447c8f18e6960ca5b2b5\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 13:58:42.117 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'ca6aa7e4b0a8447c8f18e6960ca5b2b5' to memory.
+2024-10-12 13:58:49.032 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 14:11:14.424 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\6d280afdccf141219c0e0adc1765ae6c\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 14:11:14.658 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '6d280afdccf141219c0e0adc1765ae6c' to memory.
+2024-10-12 14:11:17.495 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 14:32:49.578 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\89b2721eaf8c4b7e93be0ed841ea8a15\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 14:32:49.937 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '89b2721eaf8c4b7e93be0ed841ea8a15' to memory.
+2024-10-12 14:32:52.274 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 14:47:32.454 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\1dbd25fbe2f54cacb440d30b54e35dd2\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 14:47:32.846 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '1dbd25fbe2f54cacb440d30b54e35dd2' to memory.
+2024-10-12 14:47:35.077 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 14:48:40.186 | ERROR    | file_rag.server.utils:wrap_done:49 - RemoteProtocolError: Caught exception: peer closed connection without sending complete message body (incomplete chunked read)
+2024-10-12 14:50:04.006 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\d0f81f9414ba4a5983122bb44a9eff5b\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 14:50:04.274 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'd0f81f9414ba4a5983122bb44a9eff5b' to memory.
+2024-10-12 14:50:06.842 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 14:52:04.398 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\00c8fa4ac332498fb66ef0bea26a5d11\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 14:52:04.765 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '00c8fa4ac332498fb66ef0bea26a5d11' to memory.
+2024-10-12 14:52:07.148 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 14:54:16.160 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\64422d3508a742f4be4077137802e86a\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 14:54:16.394 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '64422d3508a742f4be4077137802e86a' to memory.
+2024-10-12 14:54:18.981 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:02:19.503 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\5108a254ac6644f59ebcd903783303cb\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:02:19.745 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '5108a254ac6644f59ebcd903783303cb' to memory.
+2024-10-12 15:02:21.970 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:06:33.972 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\1249c6c9156e421694c24196b5f322e3\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:06:34.211 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '1249c6c9156e421694c24196b5f322e3' to memory.
+2024-10-12 15:06:36.360 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:09:16.213 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\4d8444d93c92499980480b5dd119c3ff\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:09:16.457 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '4d8444d93c92499980480b5dd119c3ff' to memory.
+2024-10-12 15:09:18.924 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:13:31.234 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:13:38.983 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\b402da0aed03413d95a1fdd29841c8c2\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:13:41.115 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'b402da0aed03413d95a1fdd29841c8c2' to memory.
+2024-10-12 15:17:22.920 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:17:35.076 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\cc4d66317c26454e80887c2caa850e99\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:17:35.946 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:234 - error in knowledge chat: 请求的资源 b402da0aed03413d95a1fdd29841c8c2 不存在
+2024-10-12 15:17:37.406 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'cc4d66317c26454e80887c2caa850e99' to memory.
+2024-10-12 15:21:50.379 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:21:58.152 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\c6ded73c2eca44019c957edd5c83d7d4\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:22:00.664 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'c6ded73c2eca44019c957edd5c83d7d4' to memory.
+2024-10-12 15:27:45.274 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\012bca0e9fb04f0a853935b3afdeca73\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:27:45.526 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '012bca0e9fb04f0a853935b3afdeca73' to memory.
+2024-10-12 15:27:47.967 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:30:41.180 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\353d687b1d0b4cb0a5275154e72277b5\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:30:41.565 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '353d687b1d0b4cb0a5275154e72277b5' to memory.
+2024-10-12 15:30:46.017 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:33:09.013 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\c4ed1dc07ffa48fb8aca3fcccf80b671\政务大模型1.pdf
+2024-10-12 15:33:09.997 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'c4ed1dc07ffa48fb8aca3fcccf80b671' to memory.
+2024-10-12 15:33:11.613 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:37:36.444 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:37:43.573 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\44051ceef89c4aeaa4f3b3602b490ee2\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:37:44.482 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:234 - error in knowledge chat: 请求的资源 c4ed1dc07ffa48fb8aca3fcccf80b671 不存在
+2024-10-12 15:37:45.682 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '44051ceef89c4aeaa4f3b3602b490ee2' to memory.
+2024-10-12 15:44:16.321 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\dfb4a17f7db148ecb1fb44726f13e7a7\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 15:44:16.556 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'dfb4a17f7db148ecb1fb44726f13e7a7' to memory.
+2024-10-12 15:44:19.050 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 15:45:48.102 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\97d9137b44f343bdb4edaf8a58883ee5\政务大模型2.pdf
+2024-10-12 15:45:50.101 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '97d9137b44f343bdb4edaf8a58883ee5' to memory.
+2024-10-12 15:45:55.441 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:05:14.149 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\7d4157c9b12c463185e56a74510615ea\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:05:14.813 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '7d4157c9b12c463185e56a74510615ea' to memory.
+2024-10-12 17:05:16.742 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:05:18.880 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:122 - Failed to add documents to faiss: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000189430E0FB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-10-12 17:05:20.800 | ERROR    | file_rag.server.utils:check_embed_model:390 - failed to access embed model 'quentinz/bge-large-zh-v1.5': Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001894B49F3B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-10-12 17:05:20.802 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:234 - error in knowledge chat: failed to access embed model 'quentinz/bge-large-zh-v1.5': Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001894B49F3B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-10-12 17:10:41.983 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\c866a9d50e4b494bb4588b5fd22c2950\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:10:42.370 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'c866a9d50e4b494bb4588b5fd22c2950' to memory.
+2024-10-12 17:11:00.676 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:14:09.879 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\31dfb6e4a9a742ea9120944ee2f8cfd4\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:14:10.264 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '31dfb6e4a9a742ea9120944ee2f8cfd4' to memory.
+2024-10-12 17:14:12.557 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:17:09.461 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\5d6ab20e49684ee1a668d45b4e44de7b\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:17:09.696 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '5d6ab20e49684ee1a668d45b4e44de7b' to memory.
+2024-10-12 17:17:59.176 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\e18fa823881744ecaee54317d86d07e6\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:17:59.528 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'e18fa823881744ecaee54317d86d07e6' to memory.
+2024-10-12 17:21:19.256 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\1c9a8753a7a1417b958e7234994da16a\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:21:19.625 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '1c9a8753a7a1417b958e7234994da16a' to memory.
+2024-10-12 17:21:21.993 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:22:39.972 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\321f665b486c48f0a82be748e9c94408\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:22:40.360 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '321f665b486c48f0a82be748e9c94408' to memory.
+2024-10-12 17:22:43.282 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:26:35.581 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\dd4fb104ba7a4983b5a7b02c6d20f1b2\政务大模型2.pdf
+2024-10-12 17:26:37.217 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'dd4fb104ba7a4983b5a7b02c6d20f1b2' to memory.
+2024-10-12 17:26:38.183 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:28:22.027 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\172c51d830f34daf902ec5db66a87f0d\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:28:22.690 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '172c51d830f34daf902ec5db66a87f0d' to memory.
+2024-10-12 17:28:25.216 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:29:39.865 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\48dda91e6bdf4191a14447e9719760ef\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:29:40.126 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '48dda91e6bdf4191a14447e9719760ef' to memory.
+2024-10-12 17:29:42.518 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:33:23.834 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:35:08.857 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\d745578030064360afbf999bc5c8dacb\政务大模型1.pdf
+2024-10-12 17:35:12.776 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'd745578030064360afbf999bc5c8dacb' to memory.
+2024-10-12 17:35:23.815 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:36:30.953 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:38:49.977 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:39:37.430 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\dff668bbad374197975b136c3a8b9108\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:39:38.069 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'dff668bbad374197975b136c3a8b9108' to memory.
+2024-10-12 17:40:09.518 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:43:29.696 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\8e27f39bada340399f0f661aad3bf67c\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:43:30.039 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '8e27f39bada340399f0f661aad3bf67c' to memory.
+2024-10-12 17:43:32.817 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:46:59.325 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:47:12.398 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\47cdef802eaa41e985aef802f5c66bab\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:47:13.134 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:230 - error in knowledge chat: 请求的资源 8e27f39bada340399f0f661aad3bf67c 不存在
+2024-10-12 17:47:14.436 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '47cdef802eaa41e985aef802f5c66bab' to memory.
+2024-10-12 17:51:25.848 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:51:31.669 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 47cdef802eaa41e985aef802f5c66bab 不存在
+2024-10-12 17:51:35.772 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 47cdef802eaa41e985aef802f5c66bab 不存在
+2024-10-12 17:51:47.501 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\dfaa5b73835142668ac5e1320f0c1cf1\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:51:48.661 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 47cdef802eaa41e985aef802f5c66bab 不存在
+2024-10-12 17:51:50.173 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'dfaa5b73835142668ac5e1320f0c1cf1' to memory.
+2024-10-12 17:51:50.601 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 47cdef802eaa41e985aef802f5c66bab 不存在
+2024-10-12 17:54:19.921 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\58620e73382d4fa0bd9e6c447cefed0e\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 17:54:20.285 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '58620e73382d4fa0bd9e6c447cefed0e' to memory.
+2024-10-12 17:54:27.501 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 17:55:49.618 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\a7e93c692b9f467fbf7ed77ad4160685\政务大模型1.pdf
+2024-10-12 17:55:51.517 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'a7e93c692b9f467fbf7ed77ad4160685' to memory.
+2024-10-12 17:55:52.445 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 18:22:48.620 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 18:22:51.923 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\b99451453e864b97858bd98d4bd46f50\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 18:22:54.068 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'b99451453e864b97858bd98d4bd46f50' to memory.
+2024-10-12 18:25:19.511 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 18:25:29.640 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\005b9d994bb845c4b9128581b80c0e7d\政务大模型2.pdf
+2024-10-12 18:25:30.398 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 b99451453e864b97858bd98d4bd46f50 不存在
+2024-10-12 18:25:32.912 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 b99451453e864b97858bd98d4bd46f50 不存在
+2024-10-12 18:25:34.076 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:110 - loading vector store in '005b9d994bb845c4b9128581b80c0e7d/vector_store/quentinz/bge-large-zh-v1.5' from disk.
+2024-10-12 18:26:33.712 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\3ef2a074e8bd47cd97da4e805f079f64\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-12 18:26:34.073 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:110 - loading vector store in '3ef2a074e8bd47cd97da4e805f079f64/vector_store/quentinz/bge-large-zh-v1.5' from disk.
+2024-10-12 18:26:48.459 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\109ce54055274a5e9754a8a3d2b86fb1\奥林匹克标志保护条例.pdf
+2024-10-12 18:26:49.182 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:110 - loading vector store in '109ce54055274a5e9754a8a3d2b86fb1/vector_store/quentinz/bge-large-zh-v1.5' from disk.
+2024-10-12 18:26:51.716 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 18:26:51.749 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 3ef2a074e8bd47cd97da4e805f079f64 不存在
+2024-10-12 18:34:02.768 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 18:34:09.242 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\1591889e714144f1854ec18ef6796300\保税区海关监管办法.pdf
+2024-10-12 18:34:11.512 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '1591889e714144f1854ec18ef6796300' to memory.
+2024-10-12 18:42:37.121 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 18:42:49.701 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\26b3d3b32b584733840eca53eb3c08e7\报废机动车回收管理办法.pdf
+2024-10-12 18:42:51.256 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 1591889e714144f1854ec18ef6796300 不存在
+2024-10-12 18:42:53.422 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '26b3d3b32b584733840eca53eb3c08e7' to memory.
+2024-10-12 19:41:38.631 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 19:42:10.864 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\be67427467b94dfea339b0d540474591\保护海底电缆规定.pdf
+2024-10-12 19:42:13.052 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'be67427467b94dfea339b0d540474591' to memory.
+2024-10-12 22:10:13.950 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 22:10:52.629 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 22:11:01.493 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 be67427467b94dfea339b0d540474591 不存在
+2024-10-12 22:39:38.376 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 22:39:52.161 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 null 不存在
+2024-10-12 22:42:11.201 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 22:42:11.547 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: 请求的资源 null 不存在
+2024-10-12 22:43:42.391 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 22:49:04.834 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 22:49:51.169 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 22:57:56.326 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 22:57:57.443 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: Missing required arguments; Expected either ('messages' and 'model') or ('messages', 'model' and 'stream') arguments to be given
+2024-10-12 23:03:25.414 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 23:03:26.575 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: Missing required arguments; Expected either ('messages' and 'model') or ('messages', 'model' and 'stream') arguments to be given
+2024-10-12 23:44:03.935 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 23:44:11.249 | ERROR    | file_rag.server.chat.chat:chat_iterator:245 - error in chat: 'ChatOpenAI' object has no attribute 'llm_name'
+2024-10-12 23:44:11.254 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_name'
+2024-10-12 23:58:16.652 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-12 23:58:34.284 | ERROR    | file_rag.server.chat.chat:chat_iterator:245 - error in chat: 'ChatOpenAI' object has no attribute 'llm_model'
+2024-10-12 23:58:34.289 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_model'
+2024-10-13 09:02:34.296 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 09:03:08.189 | ERROR    | file_rag.server.chat.chat:chat_iterator:245 - error in chat: 'ChatOpenAI' object has no attribute 'llm_model'
+2024-10-13 09:03:08.192 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_model'
+2024-10-13 09:20:09.569 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 09:20:13.494 | ERROR    | file_rag.server.chat.chat:chat_iterator:245 - error in chat: 'ChatOpenAI' object has no attribute 'llm_model'
+2024-10-13 09:20:13.496 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_model'
+2024-10-13 09:22:46.641 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 10:05:09.990 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 10:15:28.388 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 10:23:01.025 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 10:23:04.934 | ERROR    | file_rag.server.chat.chat:chat_iterator:255 - error in chat: 'ChatOpenAI' object has no attribute 'llm_model'
+2024-10-13 10:23:04.938 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_model'
+2024-10-13 12:35:44.384 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 12:39:41.518 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 12:39:42.621 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: AsyncCompletions.create() got an unexpected keyword argument 'extra_json'
+2024-10-13 13:13:12.856 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 13:13:15.855 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: AsyncCompletions.create() got an unexpected keyword argument 'extra_json'
+2024-10-13 13:15:18.924 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 13:16:14.587 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 13:16:27.649 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: AsyncCompletions.create() got an unexpected keyword argument 'extra_json'
+2024-10-13 13:19:53.427 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 13:20:05.486 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: AsyncCompletions.create() got an unexpected keyword argument 'extra_json'
+2024-10-13 13:23:52.297 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 13:24:02.205 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: AsyncCompletions.create() got an unexpected keyword argument 'extra_json'
+2024-10-13 13:28:40.000 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 13:29:26.393 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-13 13:35:11.610 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 13:39:13.270 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 13:39:16.330 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: AsyncCompletions.create() got an unexpected keyword argument 'extra_json'
+2024-10-13 13:41:39.298 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 13:43:23.484 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\6aa78a89d6244f57b917dcdde890511a\保护海底电缆规定.pdf
+2024-10-13 13:43:28.170 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '6aa78a89d6244f57b917dcdde890511a' to memory.
+2024-10-13 13:43:35.808 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 16:54:42.703 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 16:55:47.933 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 16:57:17.738 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\1507a287013c4f8d9c9cc7774c57df34\保安服务管理条例.pdf
+2024-10-13 16:57:22.136 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '1507a287013c4f8d9c9cc7774c57df34' to memory.
+2024-10-13 16:57:56.444 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-13 16:57:56.445 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-13 16:57:56.447 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-13 16:58:01.491 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\b37d8e38d07544fcb58a68b601679b70\保护海底电缆规定.pdf
+2024-10-13 16:58:02.064 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'b37d8e38d07544fcb58a68b601679b70' to memory.
+2024-10-13 16:58:05.829 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 16:59:56.817 | WARNING  | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:229 - streaming progress has been interrupted by user.
+2024-10-13 16:59:56.818 | WARNING  | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:229 - streaming progress has been interrupted by user.
+2024-10-13 17:06:26.671 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 18:28:35.055 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 18:30:57.184 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 18:38:26.881 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-13 18:38:30.783 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\0914ace087d44fa5a436c70710fa80e2\保障中小企业款项支付条例.pdf
+2024-10-13 18:38:34.935 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '0914ace087d44fa5a436c70710fa80e2' to memory.
+2024-10-13 18:44:24.988 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\3fc64a2820074d94bbf17f99045c6394\奥林匹克标志保护条例.pdf
+2024-10-13 18:44:26.173 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '3fc64a2820074d94bbf17f99045c6394' to memory.
+2024-10-13 18:46:32.959 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\e44816da7e044029ae5da9ae95a5fc83\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-13 18:46:33.350 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'e44816da7e044029ae5da9ae95a5fc83' to memory.
+2024-10-13 18:46:40.975 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 18:47:15.305 | WARNING  | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:229 - streaming progress has been interrupted by user.
+2024-10-13 18:47:21.936 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\02fbb9ea517543cd98f3f1b716f892e6\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-13 18:47:22.520 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '02fbb9ea517543cd98f3f1b716f892e6' to memory.
+2024-10-13 18:48:11.260 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 18:48:21.343 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\7f1da2ab3e344866b74d1dc83cb62219\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-13 18:48:26.224 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '7f1da2ab3e344866b74d1dc83cb62219' to memory.
+2024-10-13 18:49:57.477 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 18:51:19.787 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 18:51:33.406 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\1c300d8436984ede8f3144d0b4840d33\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-13 18:51:36.613 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '1c300d8436984ede8f3144d0b4840d33' to memory.
+2024-10-13 18:58:56.989 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:00:37.713 | WARNING  | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:229 - streaming progress has been interrupted by user.
+2024-10-13 19:00:43.211 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\d32a58122912494ab1ae36818a1058fb\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-13 19:00:43.961 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'd32a58122912494ab1ae36818a1058fb' to memory.
+2024-10-13 19:01:20.234 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\722b0be3aa234208a9f6eea84d0e3f01\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-13 19:01:20.707 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '722b0be3aa234208a9f6eea84d0e3f01' to memory.
+2024-10-13 19:01:30.557 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\9dec26dce9a24387952506ff8f1dad23\政务大模型2.pdf
+2024-10-13 19:01:32.872 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '9dec26dce9a24387952506ff8f1dad23' to memory.
+2024-10-13 19:03:33.221 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\a2530d1673834cd4945ebcc72bb75f4e\政务大模型3.pdf
+2024-10-13 19:03:34.055 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'a2530d1673834cd4945ebcc72bb75f4e' to memory.
+2024-10-13 19:03:41.722 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:12:23.293 | WARNING  | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:229 - streaming progress has been interrupted by user.
+2024-10-13 19:12:23.294 | WARNING  | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:229 - streaming progress has been interrupted by user.
+2024-10-13 19:12:25.331 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:12:27.628 | WARNING  | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:229 - streaming progress has been interrupted by user.
+2024-10-13 19:24:31.157 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:32:27.705 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:35:10.098 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:38:00.493 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\78657dbc553442c580ee258358f83625\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-13 19:38:01.373 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '78657dbc553442c580ee258358f83625' to memory.
+2024-10-13 19:39:52.804 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:41:52.851 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:42:58.294 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:48:33.943 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:49:58.855 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:52:00.714 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:53:10.887 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:53:17.995 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-13 19:55:26.138 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:56:33.490 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:57:43.769 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-13 19:57:48.492 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 19:59:51.486 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 20:00:27.522 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-13 20:02:12.476 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 22:41:06.748 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-13 22:41:48.891 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 09:46:23.365 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 09:57:54.342 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:11:43.249 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:12:20.549 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:25:01.060 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:26:20.886 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:42:03.165 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:43:11.271 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:48:53.547 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:49:33.971 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:53:54.679 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 10:59:17.379 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 11:12:38.980 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 11:18:59.172 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 11:23:14.500 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 11:23:56.217 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 11:24:25.988 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 11:32:06.040 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 11:34:26.610 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 11:34:26.613 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 11:34:32.924 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 11:38:16.333 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 11:38:16.339 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 11:38:21.619 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 11:39:31.539 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 11:39:31.540 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 12:06:27.150 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 12:21:11.747 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 13:48:52.980 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:25:33.492 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:27:02.753 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:30:25.379 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:32:16.373 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 14:32:37.146 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:36:59.195 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:41:51.911 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:44:45.269 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 14:44:55.628 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:53:20.962 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:55:40.135 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 14:58:07.132 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 14:58:15.334 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 15:06:35.847 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 15:13:25.068 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 15:21:58.916 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\a839ac2a9a1141159a41eb72b960cc48\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-14 15:22:04.884 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'a839ac2a9a1141159a41eb72b960cc48' to memory.
+2024-10-14 15:22:19.486 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\44df4232f0a04dbea078e442433d4814\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-14 15:22:19.937 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '44df4232f0a04dbea078e442433d4814' to memory.
+2024-10-14 15:22:25.899 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 15:24:39.294 | WARNING  | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:229 - streaming progress has been interrupted by user.
+2024-10-14 15:27:25.174 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 16:12:12.602 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 16:16:18.786 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 16:18:04.684 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 16:18:12.154 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 16:43:24.630 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 16:43:53.591 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 16:44:30.445 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 16:44:39.128 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 16:45:01.503 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 16:48:50.352 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 16:48:56.740 | ERROR    | file_rag.server.chat.chat:chat_iterator:255 - error in chat: 'ChatOpenAI' object has no attribute 'llm_model'
+2024-10-14 16:48:56.744 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_model'
+2024-10-14 16:49:50.030 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 16:50:10.143 | ERROR    | file_rag.server.chat.chat:chat_iterator:255 - error in chat: 'ChatOpenAI' object has no attribute 'llm_model'
+2024-10-14 16:50:10.147 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_model'
+2024-10-14 16:57:13.490 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:07:14.331 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:07:25.177 | ERROR    | file_rag.server.chat.chat:chat_iterator:255 - error in chat: 'ChatOpenAI' object has no attribute 'llm_model'
+2024-10-14 17:07:25.181 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_model'
+2024-10-14 17:09:48.976 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:10:12.116 | ERROR    | file_rag.server.chat.chat:chat_iterator:255 - error in chat: 'ChatOpenAI' object has no attribute 'llm_model'
+2024-10-14 17:10:12.119 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_model'
+2024-10-14 17:16:09.763 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:17:51.915 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:17:55.671 | ERROR    | file_rag.server.chat.chat:chat_iterator:255 - error in chat: 'ChatOpenAI' object has no attribute 'llm_model'
+2024-10-14 17:17:55.674 | ERROR    | file_rag.server.utils:wrap_done:49 - TypeError: Caught exception: AsyncCompletions.create() got an unexpected keyword argument 'llm_model'
+2024-10-14 17:30:15.605 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:40:22.595 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:51:37.063 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:53:12.766 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:56:00.716 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 17:57:05.565 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:01:55.931 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:12:07.499 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:15:15.013 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-14 18:16:44.711 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:17:49.057 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:18:54.200 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:20:38.400 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:25:26.041 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:33:01.235 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:34:17.535 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:36:59.996 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:39:16.799 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:43:27.341 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:54:55.460 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 18:58:53.099 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:01:10.033 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:02:41.893 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:04:26.495 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:07:48.858 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:10:12.461 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:12:31.871 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:18:17.160 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:24:59.503 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:26:10.906 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:27:57.687 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:31:23.632 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:32:32.907 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:33:56.128 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:35:28.015 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:40:15.625 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:41:56.771 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:43:02.985 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:44:11.477 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:46:02.498 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\351f872238f74c3fbc5cba5fbe2eb0e4\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-14 19:46:07.760 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '351f872238f74c3fbc5cba5fbe2eb0e4' to memory.
+2024-10-14 19:46:20.254 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:52:41.941 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 19:59:55.146 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 20:11:33.042 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 20:22:31.993 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 20:22:43.960 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: Connection error.
+2024-10-14 20:25:29.676 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-14 20:26:45.931 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:35:16.495 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:36:35.219 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:41:57.789 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 09:42:03.755 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:43:40.937 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:47:14.767 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:48:52.415 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:49:54.744 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:51:46.000 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:53:50.134 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:56:01.722 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 09:59:10.280 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:00:54.462 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:02:13.366 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:02:19.072 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:03:40.425 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:04:47.896 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:04:47.898 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:04:56.152 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:07:51.271 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:08:20.231 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:10:37.153 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:11:22.812 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:15:29.188 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:16:46.129 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:18:25.196 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:18:30.131 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:19:03.586 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:19:55.139 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:23:45.487 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:25:27.302 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:26:44.389 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:26:49.027 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:27:02.480 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:27:33.190 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:28:23.746 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:28:28.571 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:29:37.659 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:32:03.874 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:32:08.672 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:33:44.585 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:40:14.065 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:42:09.825 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:42:26.709 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:44:38.476 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:49:52.452 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:49:58.388 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:53:37.480 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:55:24.766 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:56:47.456 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 10:57:23.178 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 10:59:20.740 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:04:48.532 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:07:01.391 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:08:26.252 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:08:47.215 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:08:47.215 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:10:19.191 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:10:30.366 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:11:55.144 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:13:25.497 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:14:22.252 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:15:09.765 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:21:23.264 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:55:01.070 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:55:17.380 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:55:17.381 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:55:49.872 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:55:49.874 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:57:12.553 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 11:57:18.435 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 11:58:00.266 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:00:37.620 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:01:44.000 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:03:12.989 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:03:20.435 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:03:25.953 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:03:25.954 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:06:11.218 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:06:19.079 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:09:26.524 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:09:33.314 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:10:08.091 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:12:19.125 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:12:26.859 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:13:36.463 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:13:43.522 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:15:36.339 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:21:35.276 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:23:21.060 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:23:26.829 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:29:59.781 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:33:16.602 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:33:54.052 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:33:54.054 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 12:40:07.033 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:43:46.167 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:45:52.734 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:51:57.486 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:53:45.243 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:55:29.482 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:56:47.836 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 12:57:56.952 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\5cc88abd6d0a4ce180a5e6bc9adeacc5\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 12:58:01.669 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '5cc88abd6d0a4ce180a5e6bc9adeacc5' to memory.
+2024-10-15 12:58:14.481 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 13:03:13.506 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 13:03:24.019 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\83e3a187f1204a24a3af68500e8d6e24\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:03:24.424 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '83e3a187f1204a24a3af68500e8d6e24' to memory.
+2024-10-15 13:06:38.956 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 13:06:48.207 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\8a246628a4164fb3b34274defe4a0ff9\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:06:48.633 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '8a246628a4164fb3b34274defe4a0ff9' to memory.
+2024-10-15 13:09:49.664 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\b224eb3ebf3b47049f8514c0a2a530ab\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:09:50.137 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'b224eb3ebf3b47049f8514c0a2a530ab' to memory.
+2024-10-15 13:12:39.670 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 13:13:05.461 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\cc968ed38b6b48a2ade0dc40691eec6e\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:13:05.715 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'cc968ed38b6b48a2ade0dc40691eec6e' to memory.
+2024-10-15 13:13:57.132 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\cd0d1f3b96174779b04f1fec21cfd081\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:13:57.377 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'cd0d1f3b96174779b04f1fec21cfd081' to memory.
+2024-10-15 13:16:15.280 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\29e8500ccd244f67a3c2ff2fe6f16209\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:16:15.709 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '29e8500ccd244f67a3c2ff2fe6f16209' to memory.
+2024-10-15 13:24:08.209 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\a515d678c9b9479789c311388505d155\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:24:08.487 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'a515d678c9b9479789c311388505d155' to memory.
+2024-10-15 13:25:40.750 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\be6465a40f8141738004a93eb9a8a94f\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:25:40.979 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'be6465a40f8141738004a93eb9a8a94f' to memory.
+2024-10-15 13:25:58.970 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\8029f67441b046e8a24b1a64e06ebea9\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:25:59.416 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '8029f67441b046e8a24b1a64e06ebea9' to memory.
+2024-10-15 13:28:06.236 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\c78f89bd491c4bc7a747467ad7d83097\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:28:06.664 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'c78f89bd491c4bc7a747467ad7d83097' to memory.
+2024-10-15 13:29:42.817 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\6e9f70eba8354482be5fa272621de3f7\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:29:43.279 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '6e9f70eba8354482be5fa272621de3f7' to memory.
+2024-10-15 13:32:28.070 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\84b4d3ee0d524591ba88aab1f3107faf\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:32:28.587 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '84b4d3ee0d524591ba88aab1f3107faf' to memory.
+2024-10-15 13:32:49.571 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\f86517b12e014a19a6962325428fc4e0\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:32:50.036 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'f86517b12e014a19a6962325428fc4e0' to memory.
+2024-10-15 13:33:14.131 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\035059c92f0b460991d2893b1c051e49\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:33:14.591 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '035059c92f0b460991d2893b1c051e49' to memory.
+2024-10-15 13:33:25.562 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\2708e56424c74f5088a8112e39df8d06\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:33:25.964 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '2708e56424c74f5088a8112e39df8d06' to memory.
+2024-10-15 13:33:59.974 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\f5924d6a6d134587892553f8758b8014\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:34:00.447 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'f5924d6a6d134587892553f8758b8014' to memory.
+2024-10-15 13:35:38.231 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 13:37:02.704 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 13:37:26.001 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\e56d21d3c9ca4cfeb1fc1479e3a8451c\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:37:26.488 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'e56d21d3c9ca4cfeb1fc1479e3a8451c' to memory.
+2024-10-15 13:38:04.112 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\9d0964e8109c4ec895fce9a15b3c49c4\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:38:04.524 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '9d0964e8109c4ec895fce9a15b3c49c4' to memory.
+2024-10-15 13:39:01.648 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\1c0e8b4c347143078f5455606cdaeffc\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:39:01.949 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '1c0e8b4c347143078f5455606cdaeffc' to memory.
+2024-10-15 13:39:26.115 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\e5960ad2ae134bbda3afd8fce4e8d87a\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:39:26.555 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'e5960ad2ae134bbda3afd8fce4e8d87a' to memory.
+2024-10-15 13:42:14.229 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRDocLoader used for E:\vs-python\h5\data\temp\39d804738eb0467e989994f8542cd362\第一阶段.docx
+2024-10-15 13:42:14.786 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '39d804738eb0467e989994f8542cd362' to memory.
+2024-10-15 13:42:22.425 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 13:49:40.218 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\d2d052d668674ace88add0830e97baab\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 13:49:40.778 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'd2d052d668674ace88add0830e97baab' to memory.
+2024-10-15 13:55:01.520 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 14:13:17.472 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 14:16:31.261 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\fa8d06faeca54a71a6690ec1670df231\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 14:16:31.805 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'fa8d06faeca54a71a6690ec1670df231' to memory.
+2024-10-15 14:16:44.897 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 14:17:59.220 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\402fcf7b51fc4824847d6281964f55d6\政务大模型1.pdf
+2024-10-15 14:18:01.559 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '402fcf7b51fc4824847d6281964f55d6' to memory.
+2024-10-15 14:18:36.600 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\e4039b5776d84dd184b3846bf0d9caef\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 14:18:37.569 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in 'e4039b5776d84dd184b3846bf0d9caef' to memory.
+2024-10-15 14:19:46.449 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\85c79e90b2a24ee8bdfa87049aa2c97a\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 14:19:46.869 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '85c79e90b2a24ee8bdfa87049aa2c97a' to memory.
+2024-10-15 14:20:53.792 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\90c4c138f98f4f1eb0eada7916c99d54\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 14:20:54.321 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '90c4c138f98f4f1eb0eada7916c99d54' to memory.
+2024-10-15 14:22:16.970 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\1333c6f9ff5544a29c5674a8693a60a1\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 14:22:17.458 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '1333c6f9ff5544a29c5674a8693a60a1' to memory.
+2024-10-15 14:28:53.896 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 14:29:33.892 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\3dff5b5c63824939a4c11ef359374f03\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 14:29:34.359 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '3dff5b5c63824939a4c11ef359374f03' to memory.
+2024-10-15 14:32:39.579 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 14:32:58.067 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRDocLoader used for E:\vs-python\h5\data\temp\4b504cfd4e1245f5a30a3ca42b9f606d\关于襄阳协同办公系统升级改造二期项目立项的请示1111.docx
+2024-10-15 14:32:58.876 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '4b504cfd4e1245f5a30a3ca42b9f606d' to memory.
+2024-10-15 15:43:43.747 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\37cf9aaa16484a71ac10fc9120aa6706\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 15:43:44.445 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:163 - loading vector store in '37cf9aaa16484a71ac10fc9120aa6706' to memory.
+2024-10-15 15:43:48.511 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:116 - Failed to add documents to faiss: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F4B06BF620>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-10-15 15:44:03.922 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 15:44:08.001 | ERROR    | file_rag.server.utils:check_embed_model:390 - failed to access embed model 'quentinz/bge-large-zh-v1.5': Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F4B0712E40>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-10-15 15:44:08.003 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: failed to access embed model 'quentinz/bge-large-zh-v1.5': Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F4B0712E40>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2024-10-15 17:20:14.192 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 17:20:30.816 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-10-15 17:30:03.895 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 17:30:26.709 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 17:31:35.280 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\4047233250c644539046b31a499f0b1d\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 17:31:38.870 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:164 - loading vector store in '4047233250c644539046b31a499f0b1d' to memory.
+2024-10-15 17:31:57.183 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 17:33:28.461 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 17:35:17.034 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 17:35:34.503 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\93e5c71f58ff461e9afe4f1f545b2375\政务大模型.pdf
+2024-10-15 17:35:36.341 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:164 - loading vector store in '93e5c71f58ff461e9afe4f1f545b2375' to memory.
+2024-10-15 17:38:15.721 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 17:39:25.078 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 17:40:53.025 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:16:15.596 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:16:56.599 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:17:55.937 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:23:08.999 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:23:12.610 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: Connection error.
+2024-10-15 18:25:05.858 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:26:12.473 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:27:31.322 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:31:41.919 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:33:40.694 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:34:53.700 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:35:56.743 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\b374793028774d30b66b82af2ee717ca\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-15 18:36:00.673 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:164 - loading vector store in 'b374793028774d30b66b82af2ee717ca' to memory.
+2024-10-15 18:36:11.922 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:37:29.470 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:39:43.134 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:42:27.301 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:45:30.772 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:48:32.049 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:49:48.828 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:53:54.596 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:55:10.428 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:57:50.555 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 18:59:41.904 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:02:40.838 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:03:02.771 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:03:55.153 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:05:00.625 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:06:13.927 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:06:47.361 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:110 - loading vector store in 'Kb_1962300fcc0a2000/vector_store/quentinz/bge-large-zh-v1.5' from disk.
+2024-10-15 19:07:12.047 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\knowledge_base\Kb_1962300fcc0a2000\content\阅办单.pdf
+2024-10-15 19:07:12.048 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - TextLoader used for E:\vs-python\h5\data\knowledge_base\Kb_1962300fcc0a2000\content\关于《襄阳市网络空间综合治理平台（二期）B包》项目申请软件专业检测名额的请示.md
+2024-10-15 19:07:18.048 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:save:40 - 已将向量库 ('Kb_1962300fcc0a2000', 'quentinz/bge-large-zh-v1.5') 保存到磁盘
+2024-10-15 19:07:18.356 | ERROR    | file_rag.webui_pages.utils:to_json:233 - JSONDecodeError: API未能返回正确的JSON。Expecting value: line 1 column 1 (char 0)
+2024-10-15 19:07:44.191 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:09:04.642 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:09:08.844 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:110 - loading vector store in 'Kb_1789bf558a8bd000/vector_store/quentinz/bge-large-zh-v1.5' from disk.
+2024-10-15 19:09:15.011 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - UnstructuredExcelLoader used for E:\vs-python\h5\data\knowledge_base\Kb_1789bf558a8bd000\content\附件2：信息系统登记表.xlsx
+2024-10-15 19:09:15.012 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\knowledge_base\Kb_1789bf558a8bd000\content\阅办单.pdf
+2024-10-15 19:09:15.012 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRDocLoader used for E:\vs-python\h5\data\knowledge_base\Kb_1789bf558a8bd000\content\附件1：密码设置指南.docx
+2024-10-15 19:09:15.013 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\knowledge_base\Kb_1789bf558a8bd000\content\关于开展“弱口令”安全风险漏洞排查工作.pdf
+2024-10-15 19:09:16.209 | ERROR    | file_rag.knowledge_base.utils:files2docs_in_thread_file2docs:423 - ImportError: 从文件 Kb_1789bf558a8bd000/附件2：信息系统登记表.xlsx 加载文档时出错：Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2024-10-15 19:09:19.948 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:save:40 - 已将向量库 ('Kb_1789bf558a8bd000', 'quentinz/bge-large-zh-v1.5') 保存到磁盘
+2024-10-15 19:10:28.387 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:12:07.405 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:14:03.701 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-15 19:15:26.158 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-16 09:35:00.729 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-16 09:37:46.946 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\73e70b69e1bd4a16ba7c1dafc1d8dc47\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-16 09:37:52.799 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:164 - loading vector store in '73e70b69e1bd4a16ba7c1dafc1d8dc47' to memory.
+2024-10-16 09:56:05.961 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-16 09:57:27.853 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-16 09:57:54.149 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRPDFLoader used for E:\vs-python\h5\data\temp\e4529c0fd452465e9e14a83eb56e35ff\XY市本级oa应用服务器宕机情况说明.pdf
+2024-10-16 09:58:00.110 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:164 - loading vector store in 'e4529c0fd452465e9e14a83eb56e35ff' to memory.
+2024-10-16 09:58:36.370 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-16 10:08:52.557 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-16 10:09:07.254 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-16 10:10:24.974 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-17 14:23:57.138 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-10-17 14:25:36.380 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-06 09:42:26.746 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-06 09:44:24.007 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-06 09:44:27.551 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: Connection error.
+2024-11-06 09:44:53.661 | ERROR    | file_rag.server.api_server.openai_routes:generator:108 - openai request error: Connection error.
+2024-11-06 09:46:06.094 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-06 09:46:37.369 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-11-06 09:57:52.782 | WARNING  | file_rag.server.api_server.openai_routes:generator:105 - streaming progress has been interrupted by user.
+2024-11-07 10:52:26.753 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-07 10:53:43.402 | INFO     | file_rag.knowledge_base.utils:file2docs:337 - RapidOCRDocLoader used for E:\vs-python\h5\data\temp\3f81d5c4bbc8425cbb0db00e527d69fa\关键技术设计.docx
+2024-11-07 10:53:47.582 | INFO     | file_rag.knowledge_base.kb_cache.faiss_cache:load_vector_store:164 - loading vector store in '3f81d5c4bbc8425cbb0db00e527d69fa' to memory.
+2024-11-07 10:53:47.649 | ERROR    | file_rag.server.chat.file_chat:upload_temp_docs:118 - Failed to add documents to faiss: Error raised by inference API HTTP code: 404, {"error":"model \"bge-large-zh-v1.5\" not found, try pulling it first"}
+2024-11-07 10:53:53.382 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-07 10:53:53.442 | ERROR    | file_rag.server.utils:check_embed_model:390 - failed to access embed model 'quentinz/bge-large-zh-v1.5': Error raised by inference API HTTP code: 404, {"error":"model \"bge-large-zh-v1.5\" not found, try pulling it first"}
+2024-11-07 10:53:53.445 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: failed to access embed model 'quentinz/bge-large-zh-v1.5': Error raised by inference API HTTP code: 404, {"error":"model \"bge-large-zh-v1.5\" not found, try pulling it first"}
+2024-11-07 10:54:15.140 | ERROR    | file_rag.server.utils:check_embed_model:390 - failed to access embed model 'quentinz/bge-large-zh-v1.5': Error raised by inference API HTTP code: 404, {"error":"model \"bge-large-zh-v1.5\" not found, try pulling it first"}
+2024-11-07 10:54:15.144 | ERROR    | file_rag.server.chat.kb_chat:knowledge_base_chat_iterator:231 - error in knowledge chat: failed to access embed model 'quentinz/bge-large-zh-v1.5': Error raised by inference API HTTP code: 404, {"error":"model \"bge-large-zh-v1.5\" not found, try pulling it first"}
+2024-11-07 10:55:56.184 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-07 10:57:57.155 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-07 10:59:18.818 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-07 11:00:38.810 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.
+2024-11-07 11:02:11.629 | WARNING  | file_rag.server.utils:detect_xf_models:110 - cannot connect to xinference host: http://127.0.0.1:9997, please check your configuration.

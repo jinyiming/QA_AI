@@ -1,0 +1,1067 @@
+/* 基本重置样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 设置全局字体和背景 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 容器样式 */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 头部样式 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #c6d0e3;
+    background-color: #f8f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.subtitle {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+/* 主内容区样式 */
+main {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 60px; /* 为底部的输入框留出空间 */
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-chats {
+    text-align: center;
+    color: #3b82f6;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.greeting {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.file-preview {
+    background-color: #f3f4f6;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.file-icon {
+    background-color: #ef4444;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-right: 0.75rem;
+    font-weight: bold;
+}
+
+.file-info {
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.file-name {
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-size {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.read-button {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+.features {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    flex-wrap: wrap; /* 允许在小屏幕上换行 */
+}
+
+/* 新增：为写作助手和生成图片按钮创建特殊类 */
+.feature-button.large {
+    flex: 1 1 calc(50% - 0.25rem); /* 使用 calc 来计算宽度，考虑间隙 */
+    min-width: 140px; /* 设置最小 */
+    height: 80px; /* 减小高度以适应移动设备 */
+    font-size: 0.9em;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.feature-button {
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.feature-button i {
+    font-size: 1.4rem;
+    color: #3b82f6;
+    margin-bottom: 0.2rem;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 0.1rem;
+}
+
+.feature-subtitle {
+    font-size: 0.7em;
+    color: #6b7280;
+}
+
+/* 添加悬停效果 */
+.feature-button:hover {
+    background-color: #e5e7eb;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 640px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-button.large {
+        width: 100%;
+        height: 70px; /* 在移动设备上进一步减小高度 */
+    }
+}
+
+.powered-by {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* 页脚样式 */
+footer {
+    border-top: 1px solid #e5e7eb;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    position: sticky;
+    bottom: 0;
+}
+
+.quick-actions {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.action-button {
+    font-size: 1.1rem; /* 增大字体大小 */
+    padding: 0.5rem 1rem; /* 增加内边距 */
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #3b82f6; /* 按钮背景颜色 */
+    color: white; /* 字体颜色 */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #2563eb; /* 悬停时的背景颜色 */
+}
+
+.action-button.active {
+    color: #3b82f6;
+    font-weight: 600;
+    background-color: #d1d5db; /* 高亮背景颜色 */
+}
+
+.feature-button.active {
+    color: #3b82f6;
+    font-weight: 600;
+    background-color: #d1d5db; /* 高亮背景颜色 */
+}
+
+.action-button:not(.active),
+.feature-button:not(.active) {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 添加按钮悬停高亮效果 */
+.quick-actions .action-button:hover,
+.features .feature-button:hover {
+    background-color: #d1d5db; /* 选择一个适合的高亮背景颜色 */
+    color: #1f2937; /* 根据需要调整文字颜色 */
+    cursor: pointer;
+}
+
+/* 添加过渡效果，使悬停更平滑 */
+.quick-actions .action-button,
+.features .feature-button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    cursor: pointer;
+    font-size: 1rem; /* 图标大小 */
+    margin: 0 4px; /* 左右间距 */
+}
+
+.input-field {
+    flex-grow: 1; /* 使输入框占据剩余空间 */
+    padding: 0.75rem 2.5rem 0.75rem 1rem;
+    border-radius: 9999px;
+    border: 1px solid #e5e7eb;
+    background-color: #f3f4f6;
+    font-size: 1rem;
+    height: 40px; /* 设置输入框高度 */
+    box-shadow: none; /* 去掉阴影 */
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+        margin: 0 auto;
+        border-left: 1px solid #e5e7eb;
+        border-right: 1px solid #e5e7eb;
+    }
+}
+
+/* 添加聊天对话容器的样式 */
+.chat-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    max-height: calc(100vh - 200px); /* 调整这个值以适应您的布局 */
+    scroll-behavior: smooth;
+}
+
+/* 聊天消息的通用样式 */
+.chat-message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+/* 用户消息样式 */
+.chat-message.user {
+    justify-content: flex-end;
+}
+
+/* AI消息样式 */
+.chat-message.ai {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ai-message-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.message-icon {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6;
+    border-radius: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.ai-icon {
+    width: 24px;
+    height: 24px;
+    color: #3b82f6;
+}
+
+.message-content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-display {
+    background-color: #f1f0f0;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.stop-generation-row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.stop-generation-button {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.stop-generation-button:hover {
+    background-color: #f1b0b7;
+}
+
+.message-content,
+.message-display {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: fit-content;
+    word-wrap: break-word;
+}
+
+.user .message-content {
+    background-color: #007bff;
+    color: white;
+}
+
+.ai .message-display {
+    background-color: #f1f0f0;
+    color: black;
+}
+
+/* 移除不必要的样式 */
+.message-wrapper {
+    display: contents;
+}
+
+@media (min-width: 640px) {
+    .message-content,
+    .message-display {
+        max-width: 80%;
+    }
+}
+
+.stop-button {
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.system-icon {
+    color: #9ca3af;
+}
+
+.chat-message.system .message-content .message-display {
+    background-color: #f3f4f6;
+    color: #4b5563;
+    font-style: italic;
+}
+
+.interruption-message {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: #ef4444;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.file-upload-section {
+    margin: 20px 0;
+}
+
+#filePreviewContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#filePreviewContainer .file-info {
+    flex-grow: 1;
+}
+
+#quickReadButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#quickReadButton:hover {
+    background-color: #45a049;
+}
+
+.upload-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.upload-button:hover {
+    background-color: #45a049;
+}
+
+#filePreviewContainer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#quickReadButton {
+    font-size: 1rem; /* 字体大小 */
+    padding: 0.5rem 1rem; /* 内边距 */
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #3b82f6; /* 按钮背景颜色 */
+    color: white; /* 字体颜色 */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* 使按钮宽度自适应 */
+    max-width: 96px; /* 设置最大宽度为120px */
+    margin: 0 auto; /* 居中对齐 */
+    display: block; /* 使按钮为块级元素 */
+}
+
+#quickReadButton:hover {
+    background-color: #2563eb; /* 悬停时的背景颜色 */
+}
+
+/* 现有的 .message-content 样式 */
+.message-content {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+/* 添加 .message-display 样式，与 .message-content 保持一致 */
+.message-display {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+/* 用户息样式 */
+.user .message-content,
+.user .message-display {
+    background-color: #007bff;
+    color: white;
+    margin-left: auto;
+}
+
+/* AI 消息样式 */
+.ai .message-content,
+.ai .message-display {
+    background-color: #f1f0f0;
+    color: black;
+    margin-right: auto;
+}
+
+/* 如果有其他特定于 message-content 或 message-display 的样式，请确保它们应用到两者 */
+
+.chat-message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.chat-message.user {
+    flex-direction: row-reverse;
+}
+
+.chat-message.ai {
+    flex-direction: row;
+}
+
+.message-icon {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1d5db;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+
+.message-wrapper {
+    flex-grow: 1;
+    max-width: calc(100% - 50px);
+}
+
+.message-content,
+.message-display {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.user .message-content,
+.user .message-display {
+    background-color: #007bff;
+    color: white;
+    margin-left: auto;
+}
+
+.ai .message-content,
+.ai .message-display {
+    background-color: #f1f0f0;
+    color: black;
+    margin-right: auto;
+}
+
+.chat-message.user .message-icon {
+    background-color: #3154a1;
+    color: white;
+}
+
+.chat-message.ai .message-icon {
+    background-color: #9ca3af;
+    color: white;
+}
+
+/* 移除固定的最大宽度限制 */
+.chat-message .message-content,
+.chat-message .message-display {
+    max-width: fit-content; /* 使用 fit-content 让内容自适应宽度 */
+    word-wrap: break-word; /* 保持长单词换行 */
+}
+
+/* 用户消息样式 */
+.chat-message.user .message-content,
+.chat-message.user .message-display {
+    background-color: #007bff;
+    color: white;
+    margin-left: auto; /* 保持用户消息靠右 */
+    margin-right: 0.5rem; /* 在内容和图标之间添加一些间距 */
+}
+
+/* AI 消息样式 */
+.chat-message.ai .message-content,
+.chat-message.ai .message-display {
+    background-color: #f1f0f0;
+    color: black;
+    margin-right: auto; /* 保持 AI 消息靠左 */
+    margin-left: 0.5rem; /* 在内容和图标之间添加一些间距 */
+}
+
+/* 消息包装器样式 */
+.message-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 为了防止消息过宽，可以设置一个最大宽度 */
+@media (min-width: 640px) {
+    .message-wrapper {
+        max-width: 80%; /* 在较大屏幕上限制最大宽度 */
+    }
+}
+
+/* 添加加载指示器样式 */
+.loading-spinner {
+    border: 4px solid #f3f4f6; /* 浅灰色边框 */
+    border-top: 4px solid #3b82f6; /* 蓝色顶部边框 */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    margin-right: 0.5rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 修改 AI 消息内容样式以包容加载指示器 */
+.chat-message.ai .message-content .message-display {
+    display: flex;
+    align-items: center;
+}
+
+/* 滚动条样式优化 */
+.chat-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.chat-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* 媒体查询，适应不同屏幕大小 */
+@media (max-width: 360px) {
+    .feature-button.large {
+        flex-basis: 100%; /* 在非常小的屏幕上占满宽度 */
+        height: 70px;
+    }
+    
+    .feature-button i {
+        font-size: 1.2rem;
+    }
+    
+    .feature-title {
+        font-size: 0.9em;
+    }
+    
+    .feature-subtitle {
+        font-size: 0.65em;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 640px) {
+    .feature-button.large {
+        flex-basis: calc(50% - 0.25rem);
+        height: 75px;
+    }
+}
+
+@media (min-width: 641px) {
+    .feature-button.large {
+        height: 90px;
+    }
+    
+    .feature-button i {
+        font-size: 1.6rem;
+    }
+    
+    .feature-title {
+        font-size: 1.1em;
+    }
+    
+    .feature-subtitle {
+        font-size: 0.75em;
+    }
+}
+
+/* 在文件末尾添加以下样式 */
+.feature-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 0.5rem;
+}
+
+.feature-button:hover {
+    opacity: 0.8; /* 添加悬停效果 */
+}
+
+/* 在文件末尾添加或更新以下样式 */
+.message-icon {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    overflow: hidden;
+}
+
+.ai-icon {
+    width: 24px;
+    height: 24px;
+    color: #3b82f6; /* 使用蓝色作为图标颜色 */
+}
+
+.chat-message.ai {
+    display: flex;
+    align-items: flex-start;
+}
+
+.chat-message.ai .message-display {
+    flex-grow: 1;
+}
+
+.modal {
+    display: none; /* 默认隐藏 */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6); /* 半透明背景 */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 增加顶部和底部的间距 */
+    padding: 40px; /* 增加内边距 */
+    border: 1px solid #888;
+    width: 80%; /* 增加宽度 */
+    max-width: 600px; /* 最大度 */
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#topicInput {
+    width: 100%; /* 输入框宽度 */
+    padding: 10px; /* 内边距 */
+    border-radius: 5px; /* 圆角 */
+    border: 1px solid #ccc; /* 边框 */
+    font-size: 1.1rem; /* 字体大小 */
+    margin-top: 10px; /* 上边距 */
+}
+
+.tag-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* 与输入框之间的间距 */
+    flex-wrap: wrap; /* 允许换行 */
+}
+
+.tag {
+    background-color: #3b82f6; /* 标签背景色 */
+    color: white; /* 标签文字颜色 */
+    border-radius: 12px; /* 圆角 */
+    padding: 2px 6px; /* 内边距 */
+    margin-right: 5px; /* 标签之间的间距 */
+    font-size: 0.8rem; /* 标签字体大小 */
+    display: flex;
+    align-items: center;
+}
+
+.tag .remove-tag {
+    margin-left: 5px; /* 删除图标与标签之间的间距 */
+    cursor: pointer; /* 鼠标悬停时显为手型 */
+}
+.stop-generation-container {
+    display: flex;
+    justify-content: flex-start; /* 左对齐 */
+    margin-top: 5px; /* 与消息内容有一定间距 */
+}
+
+.stop-generation-button {
+    background-color: #f8d7da; /* 浅红色背景 */
+    border: 1px solid #f5c6cb; /* 边框颜色 */
+    color: #721c24; /* 字体颜色 */
+    padding: 5px 10px; /* 内边距 */
+    border-radius: 5px; /* 圆角 */
+    cursor: pointer; /* 鼠标指针 */
+    font-size: 14px; /* 字体大小 */
+    transition: background-color 0.3s; /* 背景颜色过渡 */
+}
+
+.stop-generation-button:hover {
+    background-color: #f1b0b7; /* 悬停时的景颜色 */
+}
+
+.stop-generation-row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    padding-left: 0; /* 移除左边距，确保完全左对齐 */
+    width: 100%; /* 确保行占满整个宽度 */
+}
+
+.stop-generation-button {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    align-self: flex-start; /* 确保按钮本身左对齐 */
+}
+
+.stop-generation-button:hover {
+    background-color: #f1b0b7;
+}
+
+/* 确保 AI 消息容器内的元素正确对齐 */
+.chat-message.ai {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.chat-message.ai .message-display {
+    align-self: flex-start;
+    margin-left: -2px; /* 与 AI 头像对齐 */
+}
+
+.message-actions {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #6b7280;
+    transition: color 0.3s ease;
+}
+
+.action-button:hover {
+    color: #3b82f6;
+}
+
+.stop-generation-button {
+    margin-right: 10px;
+}
+
+.message-actions {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px; /* 减小间距 */
+    font-size: 12px; /* 调整字体大小 */
+    color: #6b7280;
+    transition: color 0.3s ease;
+    padding: 2px; /* 减小内边距 */
+}
+
+.action-button:hover {
+    color: #3b82f6;
+}
+
+.stop-generation-button {
+    margin-right: 5px; /* 减小间距 */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.stop-generation-button {
+    background-color: #f8d7da; /* 浅红色背景 */
+    border: 1px solid #f5c6cb; /* 边框颜色 */
+    color: #721c24; /* 字体颜色 */
+    padding: 5px 10px; /* 内边距 */
+    border-radius: 5px; /* 圆角 */
+    cursor: pointer; /* 鼠标指针 */
+    font-size: 14px; /* 字体大小 */
+    transition: background-color 0.3s; /* 背景颜色过渡 */
+    animation: blink 1s infinite; /* 添加闪烁动画 */
+}
+
+.stop-generation-button:hover {
+    background-color: #f1b0b7; /* 悬停时的背景颜色 */
+}
+
+.writing-icon {
+    margin-top: 5px; /* 与消息内容有一定间距 */
+    color: #3b82f6; /* 图标颜色 */
+    font-size: 16px; /* 图标大小 */
+    animation: blink 1s infinite; /* 添加闪烁动画 */
+    position: relative; /* 使其可以相对定位 */
+    left: 0; /* 初始位置 */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.message-display {
+    position: relative;
+    /* ... 其他样式保持不变 ... */
+}
+
+.writing-icon {
+    position: absolute;
+    transition: all 0.3s ease;
+    /* ... 其他样式保持不变 ... */
+}
+
+#uploadOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.upload-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.spinner {
+    margin-bottom: 10px;
+}
+
+.running-icon {
+    width: 50px; /* 根据需要调整图标大小 */
+    height: auto;
+    animation: run 1s linear infinite; /* 添加动画效果 */
+}
+
+@keyframes run {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(10px); } /* 让小人左右移动 */
+}
+
+.upload-success-message {
+    position: fixed;
+    top: -100px; /* 初始位置在视口外 */
+    left: 50%; /* 水平居中 */
+    transform: translateX(-50%); /* 通过 transform 进行居中 */
+    background-color: #d0d2ed; /* 背景颜色 */
+    color: white; /* 字体颜色 */
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1001;
+    text-align: center; /* 文本居中 */
+    transition: top 0.5s ease, opacity 0.5s ease; /* 添加过渡效果 */
+    opacity: 1; /* 初始不透明度 */
+}
+
+.upload-success-message.show {
+    top: 20px; /* 显示时的位置 */
+}
+
+.upload-success-message.hide {
+    opacity: 0; /* 隐藏时的不透明度 */
+    top: -100px; /* 隐藏时的位置 */
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - AI助理</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/css2.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <h1>
+                    <svg class="ai-icon" viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"></path>
+                        <path d="M12 6v4"></path>
+                        <path d="M12 14h.01"></path>
+                        <path d="M7 9h2"></path>
+                        <path d="M15 9h2"></path>
+                        <path d="M8 14l1.5-2.5"></path>
+                        <path d="M14.5 11.5L16 14"></path>
+                    </svg>
+                    AI助理登录
+                </h1>
+                <p>欢迎回来，请登录您的账户</p>
+            </div>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">用户名</label>
+                    <div class="input-wrapper">
+                        <img src="icons/user.svg" alt="用户" class="icon" onerror="this.onerror=null; this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%23667eea\'%3E%3Cpath d=\'M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4z\'/%3E%3C/svg%3E';">
+                        <input type="text" id="username" placeholder="请输入您的用户名" required>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="password">密码</label>
+                    <div class="input-wrapper">
+                        <img src="icons/lock.svg" alt="锁" class="icon" onerror="this.onerror=null; this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%23667eea\'%3E%3Cpath d=\'M12 17a2 2 0 0 0 2-2 2 2 0 0 0-2-2 2 2 0 0 0-2 2 2 2 0 0 0 2 2m6-9a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a5 5 0 0 1 5-5 5 5 0 0 1 5 5v2h1m-6-5a3 3 0 0 0-3 3v2h6V6a3 3 0 0 0-3-3z\'/%3E%3C/svg%3E';">
+                        <input type="password" id="password" placeholder="请输入您的密码" required>
+                    </div>
+                </div>
+                <button type="submit">登录</button>
+            </form>
+            <p id="errorMessage" class="error-message"></p>
+        </div>
+    </div>
+    <script type="module" src="utils/login.js"></script>
+</body>
+</html>
